@@ -49,8 +49,8 @@
   "workbench.tree.indent": 25,
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
+  "fiveServer.host": "127.0.0.1",
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5504,
 
   // disable copilot chat
   "chat.agent.enabled": false,
