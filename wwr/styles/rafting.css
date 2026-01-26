@@ -1,3 +1,9 @@
+:root{
+    --background-color:#060a4b ;
+    --primary-font-color: #111B0A;
+    --body-font:'Poppins', Berlin-Sans-FB;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,24 +12,25 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-font-color);
     max-height: 1000px;
 }
 
 header {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     padding: 0 25px;
     height: 120px;
-    background-color: #232661;
+    background-color: var(--background-color);
+    color: white;
     position: relative;
     z-index: 10;
 }
 
 header nav a {
     display: flex;
-    background-color: #232661;
+    background-color: var(--background-color);
     color: white;
     margin: 0 12px;
     font-weight: bold;
@@ -45,7 +52,6 @@ main {
 
 h1,
 h2 {
-    font-family: var(--heading-font);
     color: var(--primary-color);
 
 }
