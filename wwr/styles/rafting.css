@@ -2,6 +2,7 @@
     --background-color:#060a4b ;
     --primary-font-color: #111B0A;
     --body-font:'Poppins', Berlin-Sans-FB;
+    --primary-color: #111B0A
 }
 
 * {
@@ -18,7 +19,6 @@ body {
 
 header {
     display: flex;
-    align-items: left;
     justify-content: space-between;
     padding: 0 25px;
     height: 120px;
@@ -72,9 +72,8 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
-    padding: 8px;
-    border: #232661 10px;
+    margin: 10px;
+    padding: 2px;
 }
 
 .hero {
@@ -101,7 +100,7 @@ article {
 }
 
 .hero article img {
-    width: 80px;
+    width: 130px;
     float: right;
     margin-left: 10px;
 }
