@@ -4,7 +4,7 @@
     --header-bg: rgb(0, 39, 96);
     --h1-bg: rgb(35, 38, 97);
     --hero-bg: rgba(4, 17, 8, 0.85);
-    --white: rgb(255, 255, 255);
+    --whit: rgb(255, 255, 255);
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: var(--header-bg);
-    color: var(--white);
+    color: var(--whit);
     padding: 0.5rem;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -49,7 +49,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--white);
+    color: var(--whit);
     margin: 1rem 0 1rem 7rem;
 
 }
@@ -74,7 +74,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--h1-bg);
-    color: var(--white);
+    color: var(--whit);
     font-size: 89px;
 }
 
@@ -114,7 +114,7 @@ article {
 .hero {
     position: relative;
     z-index: 1;
-    color: var(--white);
+    color: var(--whit);
     background-color: var(--hero-bg);
 }
 
@@ -187,7 +187,7 @@ footer {
     align-items: center;
     padding: 5px 50px;
     background-color: var(--header-bg);
-    color: var(--white);
+    color: var(--whit);
     width: 100%;
     box-sizing: border-box;
 }
@@ -200,6 +200,6 @@ footer {
 
 .socialmedia img {
     width: 40px;
-    background-color: var(--white);
+    background-color: var(--whit);
     border-radius: 8px;
 }
