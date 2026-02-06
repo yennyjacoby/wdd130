@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form Example</title>
+    <meta name="description" content="A Simple quiz form example for week 05">
+    <meta name=" author" content="Yenny Jacoby">
+    <link rel="stylesheet" href="styles/quiz.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Quiz Form Example</h1>
+        <form action="#">
+            <fieldset>
+                <legend> Input fields></legend>
+                <label for="q1"><span class="number">1.</span> What does the acr CSS stand
+                    for?</label>
+                <input type="text" id="q1" name="q1" required>
+
+                <label for="q2"><span class="number">2.</span> How are ID and class attribute
+                    selected in CSS?</label> <textarea name="q2" id="q2" rows="5"
+                  required></textarea>
+
+                <label for=" q3"><span class="number">3.</span> Which of the following is a valid
+                    CSS comment?</label></span>
+                <select name="q3" id="q3">
+                    <option value="0"> Choose one ... </option>
+                    <option value="1"> /* This is a comment*/ </option>
+                    <option value="2"> // This is a comment // </option>
+                    <option value="3"> # This is a comment*/ </option>
+                    <option value="4"> &lt;!-- This is a comment--&gt; </option>
+                </select>
+
+                <label for="q4"><span class="number">4.</span> What is the bottom margin given this
+                    declaration?</label>
+                <p class="code"> margin:10px 5px 26px;</p>
+                <input type="text" name="q4" id="q4" required>
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
