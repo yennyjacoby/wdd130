@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML Forms | Poll Forms | </title>
+    <meta name="description" content="Learning to create forms in HTML.">
+    <meta name=" author " content="Yenny Jacoby">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <main>
+        <h1> WDD 130 | HTML Form - User Poll </h1>
+
+        <form>
+            <fieldset class="Contact-information">
+                <legend>Contact Information </legend>
+
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail"> Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="Questions">
+                <legend>Questions </legend>
+
+                <div class="form-item column1">
+                    <label for="quantity">What is your favorite browser?</label>
+                    <select name="quantity" id="quantity">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Edge">Edge</option>
+                        <option value="Brave">Brave</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-item">
+                    <label for="pet">Do you have a household pet? </label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <div class="form-item">
+                    <label for="feedback"> List the places you have lived </label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                      placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+                </div>
+
+            </fieldset>
+
+            <button type="submit">Submit Poll</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p> © 2026 | HTML Form - User Poll Activity | Yenny Jacoby</p>
+    </footer>
+
+</body>
