@@ -1,13 +1,20 @@
 :root {
-    --primary-font-color: rgb(17, 27, 10);
+    --primary-font-color: #111B0A;
     --body-font: 'Poppins', Berlin-Sans-FB;
-    --header-bg: rgb(0, 39, 96);
-    --h1-bg: rgb(35, 38, 97);
-    --text-dark: rgba(0, 0, 0);
-    --text-light: rgb(255, 255, 255);
-    --box-sh: rgba(0, 0, 0, 0.3);
-    --shadow-hero: rgba(4, 17, 8, 0.85);
-    --shadow-dark: rgba(0, 0, 0, 0.3);
+
+    --header-bg: #002760;
+    --h1-bg: #232661;
+
+    --text-dark: #000000;
+    --text-light: #FFFFFF;
+
+    --box-sh: #0000004D;
+    /* 30% opacity */
+    --shadow-hero: #041108D9;
+    /* dark overlay shadow */
+    --shadow-dark: #0000004D;
+    --hero-overlay: #232661CC;
+    --transparent: #00000000;
 }
 
 * {
@@ -134,7 +141,7 @@ article {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--box-sh);
+    background-color: var(--hero-overlay);
     padding: 16px;
     width: 1000px;
     border-radius: 8px;
@@ -218,7 +225,7 @@ CONTACT US  */
 .contact-header h1 {
     position: static;
     width: auto;
-    background-color: transparent;
+    background-color: var(--transparent);
     font-size: 3rem;
     padding: 0;
     margin-bottom: 1rem;
