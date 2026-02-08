@@ -3,7 +3,7 @@
     --body-font: 'Poppins', Berlin-Sans-FB;
     --header-bg: rgb(0, 39, 96);
     --h1-bg: rgb(35, 38, 97);
-    --hero-bg: rgba(4, 17, 8, 0.85);
+    --text-dark: rgba(0, 0, 0);
     --whit: rgb(255, 255, 255);
     --box-sh: rgba(0, 0, 0, 0.3)
 }
@@ -116,7 +116,7 @@ article {
     position: relative;
     z-index: 1;
     color: var(--whit);
-    background-color: var(--hero-bg);
+    background-color: var(--h1-bg);
 }
 
 .hero-img {
@@ -136,7 +136,7 @@ article {
     padding: 16px;
     width: 1000px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px var(--box-sh);
+    box-shadow: 0 4px 10px rgba(4, 17, 8, 0.85);
     font-size: 25px;
     display: flex;
     text-align: center;
@@ -234,7 +234,7 @@ CONTACT US  */
     padding: 0;
     margin-bottom: 1rem;
     text-align: center;
-    color: var(--hero-bg);
+    color: var(--text-dark);
     font-weight: bold;
 }
 
