@@ -5,7 +5,9 @@
     --h1-bg: rgb(35, 38, 97);
     --text-dark: rgba(0, 0, 0);
     --text-light: rgb(255, 255, 255);
-    --box-sh: rgba(0, 0, 0, 0.3)
+    --box-sh: rgba(0, 0, 0, 0.3);
+    --shadow-hero: rgba(4, 17, 8, 0.85);
+    --shadow-dark: rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -136,7 +138,7 @@ article {
     padding: 16px;
     width: 1000px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px var(--box-sh);
+    box-shadow: 0 4px 10px var(--shadow-hero);
     font-size: 25px;
     display: flex;
     text-align: center;
