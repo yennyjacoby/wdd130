@@ -222,6 +222,7 @@ CONTACT US  */
     text-align: center;
     color: var(--header-bg);
     font-weight: 700;
+    opacity: 1;
 }
 
 .contact-header p {
@@ -269,4 +270,26 @@ form {
     margin: 1rem 3rem;
     max-width: 500px;
     height: 400px;
+}
+
+.grid-section-contact h2 {
+    text-align: center;
+    grid-column: 1/ -1;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.grid-section-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    text-align: center;
+    font-weight: 700;
+    padding: 0;
+
+}
+
+.grid-section-contact img {
+    max-width: 150px;
+    border-radius: 8px;
 }
