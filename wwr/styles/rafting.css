@@ -240,6 +240,7 @@ form {
 }
 
 .map iframe {
+    border: 0;
     margin: 1rem 3rem;
     max-width: 500px;
     height: 400px;
