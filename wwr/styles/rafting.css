@@ -238,7 +238,7 @@ CONTACT US  */
 .contact-header p {
     position: static;
     width: auto;
-    background-color: transparent;
+    background-color: var(--transparent);
     font-size: 25px;
     padding: 0;
     margin-bottom: 1rem;
@@ -275,7 +275,7 @@ form {
 }
 
 .map iframe {
-    border: 0;
+    border: none;
     margin: 1rem 3rem;
     max-width: 500px;
     height: 400px;
