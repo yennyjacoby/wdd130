@@ -34,16 +34,8 @@ a {
     color: rgb(58, 1, 139);
 }
 
-header,
-.grid,
-footer {
-    max-width: 1200px;
-    margin: 0 auto;
-    /* If the auto is not here I won't have it centered */
-
-}
-
 main {
+    flex: 1;
     max-width: 45rem;
     grid-column: 2/3;
     margin: 1rem 0;
@@ -117,10 +109,26 @@ ul {
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
 
 footer {
-    margin-top: 0;
+    margin-top: auto;
+    border-top: 3px var(--second-color);
     background-color: #3e3e3e;
     color: #fff;
     text-align: center;
