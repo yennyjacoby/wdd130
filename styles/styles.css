@@ -24,17 +24,18 @@ nav a {
     color: #fff;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}   
+}
 
 a {
     color: rgb(58, 1, 139);
 }
 
-header, .grid,
+header,
+.grid,
 footer {
     max-width: 1200px;
     margin: 0 auto;
@@ -44,7 +45,7 @@ footer {
 
 main {
     max-width: 45rem;
-    grid-column: 2/3; 
+    grid-column: 2/3;
     margin: 1rem 0;
     /* grid-column, Made it to the left */
 }
@@ -57,7 +58,7 @@ h1 {
 main img {
     width: 200px;
     height: auto;
-    float:  right;
+    float: right;
     border: 1px solid var(--dark-border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -70,26 +71,31 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    border: 1px;
+    padding: 1px;
+    background-color: var(--background-color);
+    color: var(--heading-text-color);
     /* Child elements of the aside element are positioned absolutely within the aside. (relative) */
 }
 
 aside img {
-    width: 250px;
+    width: 200px;
     height: auto;
     display: block;
     margin: 20px;
+
 }
 
-aside h2{
+aside h2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 3;
+    top: 3px;
     margin-top: 2rem;
 }
 
 p {
-    padding: 1rem;
+    padding: 0;
 }
 
 /* Class Selectors */
@@ -102,11 +108,11 @@ ul {
     border: 1px solid #b71234;
     padding: 1rem;
     background-color: #cccaca;
-    color: #1a0442; 
-    margin: 1rem; 
+    color: #1a0442;
+    margin: 1rem;
 }
 
-.grid{
+.grid {
     display: grid;
     align-items: center;
     margin-top: 2rem;
@@ -114,6 +120,7 @@ ul {
 }
 
 footer {
+    margin-top: 0;
     background-color: #3e3e3e;
     color: #fff;
     text-align: center;
