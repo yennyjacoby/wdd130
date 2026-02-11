@@ -211,12 +211,19 @@ footer {
     border-radius: 8px;
 }
 
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /* 
 CONTACT US  */
 
 .contact-layout {
     display: flex;
     gap: 0;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .contact-header h1 {
@@ -291,15 +298,11 @@ form {
     text-align: center;
     font-weight: 700;
     padding: 0;
-
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .grid-section-contact img {
     max-width: 150px;
     border-radius: 8px;
-}
-
-.content-wrapper {
-    width: 1200px;
-    margin: 0 auto;
 }
