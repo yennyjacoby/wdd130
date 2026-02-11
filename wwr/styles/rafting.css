@@ -2,18 +2,17 @@
     --primary-font-color: #111B0A;
     --body-font: 'Poppins', Berlin-Sans-FB;
 
-    --header-bg: #002760;
-    --h1-bg: #232661;
+    --header-bg: #0D362F;
+    --h1-bg: #1a1a1aE6;
 
     --text-dark: #000000;
     --text-light: #FFFFFF;
 
     --box-sh: #0000004D;
-    /* 30% opacity */
     --shadow-hero: #041108D9;
-    /* dark overlay shadow */
     --shadow-dark: #0000004D;
-    --hero-overlay: #232661CC;
+    /* --hero-overlay: #232661CC; */
+    --hero-overlay: #6c4800b3;
     --surface-ghost: #00000000;
 }
 
@@ -57,15 +56,13 @@ nav a {
     display: flex;
     padding: 0.5rem;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.80rem;
     font-weight: 700;
     color: var(--text-light);
     margin: 1rem 0 1rem 7rem;
 
 }
 
-header,
-main,
 footer {
     width: 1200px;
     margin: 0 auto;
@@ -73,7 +70,7 @@ footer {
 }
 
 main {
-    margin-top: 0;
+    max-width: 100%;
 }
 
 h1 {
@@ -300,4 +297,9 @@ form {
 .grid-section-contact img {
     max-width: 150px;
     border-radius: 8px;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
 }
