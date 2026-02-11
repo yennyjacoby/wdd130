@@ -125,14 +125,15 @@ article {
     z-index: 1;
     color: var(--text-light);
     background-color: var(--h1-bg);
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-img {
     width: 100%;
-    height: auto;
     display: block;
-    margin-top: 10px;
-    border-radius: 8px;
 }
 
 .hero article {
