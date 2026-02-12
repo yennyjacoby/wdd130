@@ -17,7 +17,7 @@
     --ligth-t: #cfcba7;
     --lgb: #fbf6e7;
     --clearbl: #e6faf6;
-    --home: #C1C3BA;
+    --home: #9FA395;
 
 }
 
@@ -94,7 +94,7 @@ main {
 }
 
 section {
-    margin: 3rem, 0;
+    margin: 3rem 0;
 }
 
 p {
@@ -340,7 +340,7 @@ TRIPS */
     display: inline-block;
     padding: 1rem;
     background-color: var(--cta);
-    color: var(--text-light);
+    color: var(--text-dark);
     font-weight: 700;
     font-size: 1.5rem;
     border-radius: 10px;
@@ -370,7 +370,7 @@ TRIPS */
     font-size: 4rem;
     text-align: center;
     margin: 2rem auto 1.5rem auto;
-    color: var(--primary-color);
+    color: var(--text-dark);
     background-color: var(--ligth-t);
     padding: 1rem;
     border-radius: 8px;
@@ -444,6 +444,7 @@ ABOUT US */
     z-index: 5;
     text-align: center;
     color: var(--text-dark);
+    font-weight: 700;
     background-color: var(--home);
 }
 
