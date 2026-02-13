@@ -335,7 +335,7 @@ TRIPS */
 }
 
 .cta p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .cta-button {
@@ -455,7 +455,7 @@ ABOUT US */
 .heading-message {
     position: absolute;
     font-size: 4rem;
-    top: 800px;
+    top: 500px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 5;
@@ -472,6 +472,7 @@ ABOUT US */
     box-shadow: 0 4px 10px var(--shadow-dark);
     margin: 2rem auto;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .newsletter form {
@@ -479,6 +480,21 @@ ABOUT US */
     gap: 1rem;
     max-width: 400px;
     margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+
+}
+
+.newsletter button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 .grid-section-home {
@@ -494,8 +510,14 @@ ABOUT US */
     justify-items: center;
 }
 
+.purpose-offering {
+    grid-column: 1/ -1;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .grid-section-home h2 {
-    grid-column: 1/6;
+    grid-column: 1/-1;
     font-size: 2rem;
     margin-bottom: 20px;
 }
