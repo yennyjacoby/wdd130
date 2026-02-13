@@ -17,7 +17,7 @@
     --ligth-t: #cfcba7;
     --lgb: #fbf6e7;
     --clearbl: #e6faf6;
-    --home: #9FA395;
+    --home: #0F2823D8;
 
 }
 
@@ -69,12 +69,6 @@ nav a {
     font-weight: 700;
     color: var(--text-light);
     margin: 0;
-
-}
-
-footer {
-    width: 1200px;
-    margin: 0 auto;
 
 }
 
@@ -203,18 +197,23 @@ footer {
     padding: 5px 50px;
     background-color: var(--header-bg);
     color: var(--text-light);
-    width: 100%;
     box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 .socialmedia a {
     text-decoration: none;
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .socialmedia img {
     width: 40px;
+    height: auto;
     background-color: var(--text-light);
     border-radius: 8px;
 }
@@ -230,9 +229,11 @@ CONTACT US  */
 
 .contact-layout {
     display: flex;
-    gap: 0;
-    width: 1200px;
+    gap: 1rem;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .contact-header h1 {
@@ -288,8 +289,9 @@ form {
 .map iframe {
     border: none;
     margin: 1rem 3rem;
-    max-width: 500px;
-    height: 400px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 .grid-section-contact h2 {
@@ -306,7 +308,8 @@ form {
     text-align: center;
     font-weight: 700;
     padding: 0;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -347,7 +350,8 @@ TRIPS */
 }
 
 .detailed-trip {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto 3rem auto;
     text-align: center;
     font-size: 1.5rem;
@@ -376,6 +380,17 @@ TRIPS */
     border-radius: 8px;
 }
 
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-responsive table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
 .trip {
     background-color: var(--clearbl);
     padding: 1.5rem;
@@ -389,6 +404,7 @@ TRIPS */
     align-items: center;
     gap: 1.5rem;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .trip-content p {
@@ -430,6 +446,7 @@ TRIPS */
     border-radius: 5px;
     display: block;
     margin: 0 auto;
+
 }
 
 /* 
@@ -443,7 +460,7 @@ ABOUT US */
     transform: translateX(-50%);
     z-index: 5;
     text-align: center;
-    color: var(--text-dark);
+    color: var(--text-light);
     font-weight: 700;
     background-color: var(--home);
 }
@@ -471,7 +488,8 @@ ABOUT US */
     text-align: center;
     padding: 20px;
     font-size: 1.5rem;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     justify-items: center;
 }
